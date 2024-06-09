@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --light-gray: #dfdfe2;
+  --dark-blue: #0a0a23;
+  --blue: #99c9ff;
+  --yellow: #feac32;
+  --blue-violet: #5a01a7;
+  --green: #00471b;
+}
+
+body {
+  background-color: var(--dark-blue);
+  color: var(--light-gray);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1 {
+  margin: 20px 0;
+  font-size: 2.5rem;
+}
+
+.freecodecamp-logo {
+  width: 250px;
+}
+
+.io-section {
+  width: 450px;
+  height: auto;
+  background: #fff;
+  color: #000;
+  margin: 40px auto;
+  padding: 25px 20px;
+  border-radius: 20px;
+}
+
+.i-title {
+  margin-bottom: 20px;
+}
+
+#text-input {
+  border: none;
+  border-bottom: 2px solid var(--blue-violet);
+  margin-bottom: 20px;
+  width: 250px;
+  height: 30px;
+  padding: 8px;
+  font-size: 20px;
+  text-align: center;
+}
+
+#check-btn {
+  background: var(--blue-violet);
+  color: #fff;
+  padding: 6px 18px;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+#result {
+  font-size: 20px;
+  padding: 0px 5px;
+}
+
+.input-value {
+  font-weight: bold;
+}
+
+.info {
+  display: flex;
+  gap: 10px;
+  background: var(--green);
+  padding: 20px;
+  border-radius: 20px;
+  width: 450px;
+}
+
+.info p {
+  text-align: start;
+  font-size: 20px;
+}
+
+.info span {
+  font-style: italic;
+}
